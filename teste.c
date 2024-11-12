@@ -427,3 +427,10 @@ void atualizar_cotacao(Investidor *conta) {
   fclose(arquivo);
   printf("Cotações atualizadas com sucesso.\n");
 }
+
+// Função principal
+int main() {
+  srand(time(NULL)); // Inicializa a semente do gerador de números aleatórios
+  painel_inicial();
+  return 0;
+}
